@@ -371,6 +371,10 @@ exports.data_sources = {
               {
                 "description": "mozfest",
                 "src": "http://mozfaced.herokuapp.com/?date="
+              },
+              {
+                "description": "mozfest-2014",
+                "src": "https://adhoctribution.herokuapp.com/api?team=mofo-mozfest&bucket=events&date="
               }
             ],
         "training" : [],
