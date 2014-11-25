@@ -365,7 +365,12 @@ exports.data_sources = {
     {
       "name" : "mofo",
       "buckets" : {
-        "code" : [],
+        "code" : [
+              {
+                "description": "adhoc",
+                "src": "https://adhoctribution.herokuapp.com/api?team=mofo-devops&bucket=events&date="
+              }
+            ],
         "content" : [],
         "events" : [
               {
@@ -375,12 +380,12 @@ exports.data_sources = {
               {
                 "description": "mozfest-2014",
                 "src": "https://adhoctribution.herokuapp.com/api?team=mofo-mozfest&bucket=events&date="
-              }
+              },
             ],
         "training" : [],
         "community" : [],
         "testing" : [],
-        "apis" : [],
+        "apis" : []
       }
     }
   ]
