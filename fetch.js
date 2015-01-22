@@ -100,7 +100,8 @@ function updateNumbersForSrc (team, bucket, item, datesToCheck, callback) {
 
     function updateNumbersForToday (callback) {
       var now = new Date();
-      var today = dateToISOString(now);
+      //var today = dateToISOString(now);
+      var today = '2014-12-31'; // fix this on last day of the year for now
       getNumbersForDate(today, 'counts_latest', function gotNumbersForDate (err, res) {
         if (err) console.log(err);
         callback(null);
